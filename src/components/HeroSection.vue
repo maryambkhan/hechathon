@@ -1,7 +1,16 @@
 <template>
   <img
-    src="../assets/images/hero.jpeg"
-    alt="sephora hero image"
+    :src="props.img.url"
+    :alt="props.img.alt"
     class="flex justify-center w-full h-full mt-2"
   />
 </template>
+
+<script setup>
+import { defineProps } from "vue";
+const props = defineProps({
+  img: {
+    type: Object
+  }
+});
+</script>
