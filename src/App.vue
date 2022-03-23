@@ -2,9 +2,14 @@
   <TheHeader />
   <main>
   <HeroSection :img="heroImage"/>
+ <section>
   <CardImage :img="cardImage" />
-  <CardHeader :cardTitle="'cardTitle'" />
-  <CardInfo :cardInfo="'cardInfo'" />
+  <CardHeader :cardTitle="cardTitle" />
+  <CardInfo :cardInfo="cardInfo" />
+  <CardImage :img="cardsImage" />
+  <CardHeader :cardTitle="cardsTitle" />
+  <CardInfo :cardInfo="cardsInfo" />
+ </section>
   </main>
   <TheFooter :title="'&copy; Maryam Khan 2022'" />
 </template>
@@ -18,7 +23,8 @@ import CardImage from "./components/CardImage.vue";
 import CardInfo from "./components/CardInfo.vue";
 import TheFooter from "./components/TheFooter.vue";
 
-const cardHeader = "Lipstic";
+// first card
+const cardTitle = "Lipstic";
 
 const cardInfo = "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s";
 
@@ -30,5 +36,15 @@ const cardImage = {
 const heroImage = {
   url : "https://images.pexels.com/photos/7290089/pexels-photo-7290089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   alt: "Hero Image"
+}
+
+// second card
+const cardsTitle = "Brushes";
+
+const cardsInfo = "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s";
+
+const cardsImage = {
+  url : "https://images.pexels.com/photos/208052/pexels-photo-208052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  alt:"product"
 }
 </script>

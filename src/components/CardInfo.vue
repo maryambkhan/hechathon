@@ -1,14 +1,14 @@
 <template>
   <p class="box-content max-w-screen-md mx-auto">
-    {{props.cardInfo}}
+    {{ props.cardInfo }}
   </p>
 </template>
 
 <script setup>
-import { defineProps } from "vue";
 const props = defineProps({
   cardInfo: {
-    type: String
+    type: String,
+    default: 'detail'
   }
 });
 </script>

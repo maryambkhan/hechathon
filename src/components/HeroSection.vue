@@ -2,7 +2,7 @@
   <img
     :src="props.img.url"
     :alt="props.img.alt"
-    class="flex justify-center w-full h-full mt-2"
+    class="flex justify-center w-full h-full mt-1"
   />
 </template>
 
