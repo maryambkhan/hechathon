@@ -4,7 +4,6 @@
     <div class="flex gap-2 items-center ml-2">
       <span class="text-2xl font-semibold text-black">SEPHORA</span>
     </div>
-    <div>
   </header>
 </template>
 
