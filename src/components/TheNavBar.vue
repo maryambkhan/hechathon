@@ -1,5 +1,6 @@
 <template>
-  <nav class="flex flex-row   justify-center py-4">
+  
+  <nav class="flex flex-col items-center text-white justify-center py-4">
     <ul class="">
       <a href="#" class="px-14 font-semibold" >New</a>
       <a href="#" class="px-14 font-semibold">Brands</a>
