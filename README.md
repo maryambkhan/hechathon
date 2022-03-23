@@ -1,24 +1,10 @@
-# hechathon
+# hecKathon
 
-## Project setup
-```
-npm install
-```
+## Maryam Khan
+## MahaLakshmi
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Code Journal
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- It was realy good experience working in team
+ i learned so much stuff.
+- It gave me idea how i am going to do my final project.

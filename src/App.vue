@@ -2,16 +2,14 @@
   <TheHeader />
   <main>
   <HeroSection :img="heroImage"/>
- <div class="flex flex-col">
   <CardImage :img="cardImage" />
   <CardHeader :cardTitle="cardTitle" />
   <CardInfo :cardInfo="cardInfo" />
   <CardImage :img="cardsImage" />
   <CardHeader :cardTitle="cardsTitle" />
   <CardInfo :cardInfo="cardsInfo" />
- </div>
   </main>
-  <TheFooter :title="'&copy; Maryam Khan 2022'" />
+  <TheFooter :title="'&copy;  2022'" />
 </template>
 
 // imports
