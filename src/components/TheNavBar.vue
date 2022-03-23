@@ -1,11 +1,12 @@
 <template>
-  <nav class="flex flex-col items-center justify-center py-4">
+  <nav class="flex flex-row   justify-center py-4">
     <ul class="">
-      <a href="#">New</a>
-      <a href="#">Brands</a>
-      <a href="#">Makeup</a>
-      <a href="#">SkinCare</a>
-      <a href="#">Sign Up</a>
+      <a href="#" class="px-14 font-semibold" >New</a>
+      <a href="#" class="px-14 font-semibold">Brands</a>
+      <a href="#" class="px-14 font-semibold">Makeup</a>
+      <a href="#" class="px-14 font-semibold">SkinCare</a>
+       <a href="#" class="px-14 font-semibold">Gifts</a>
+      <a href="#" class="px-14 font-semibold">Sign Up</a>
     </ul>
   </nav>
 </template>
