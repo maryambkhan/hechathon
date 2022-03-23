@@ -1,8 +1,8 @@
-<template>
+<template>  
   <img
     :src="props.img.url"
     :alt="props.img.alt"
-    class="flex justify-center w-full h-full mt-1"
+    class="flex justify-center  h-1/4 mt-1"
   />
 </template>
 

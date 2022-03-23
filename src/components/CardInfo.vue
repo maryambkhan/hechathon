@@ -1,5 +1,5 @@
 <template>
-  <p class="box-content max-w-screen-md mx-auto">
+  <p class="box-content max-w-screen-md m-auto ">
     {{ props.cardInfo }}
   </p>
 </template>

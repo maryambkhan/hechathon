@@ -2,14 +2,14 @@
   <TheHeader />
   <main>
   <HeroSection :img="heroImage"/>
- <section>
+ <div class="flex flex-col">
   <CardImage :img="cardImage" />
   <CardHeader :cardTitle="cardTitle" />
   <CardInfo :cardInfo="cardInfo" />
   <CardImage :img="cardsImage" />
   <CardHeader :cardTitle="cardsTitle" />
   <CardInfo :cardInfo="cardsInfo" />
- </section>
+ </div>
   </main>
   <TheFooter :title="'&copy; Maryam Khan 2022'" />
 </template>
@@ -32,7 +32,7 @@ const cardImage = {
   url : "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   alt:"product"
 }
-
+// hero section
 const heroImage = {
   url : "https://images.pexels.com/photos/7290089/pexels-photo-7290089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   alt: "Hero Image"
