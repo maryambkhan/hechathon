@@ -2,12 +2,14 @@
   <TheHeader />
   <main>
   <HeroSection :img="heroImage"/>
+  <div>
   <CardImage :img="cardImage" />
   <CardHeader :cardTitle="cardTitle" />
   <CardInfo :cardInfo="cardInfo" />
   <CardImage :img="cardsImage" />
   <CardHeader :cardTitle="cardsTitle" />
   <CardInfo :cardInfo="cardsInfo" />
+  </div>
   </main>
   <TheFooter :title="'&copy;  2022'" />
 </template>
